@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="39995" started-at="2020-07-26T13:19:18 CEST" finished-at="2020-07-26T13:19:58 CEST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="39995" started-at="2020-07-26T13:19:18 CEST" finished-at="2020-07-26T13:19:58 CEST">
+      <class name="searchJakarta.maps.TestSearchJakarta">
+        <test-method status="PASS" signature="setupAppium()[pri:0, instance:searchJakarta.maps.TestSearchJakarta@1d29cf23]" name="setupAppium" is-config="true" duration-ms="7907" started-at="2020-07-26T13:19:18 CEST" finished-at="2020-07-26T13:19:26 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupAppium -->
+        <test-method status="PASS" signature="findJakarta()[pri:0, instance:searchJakarta.maps.TestSearchJakarta@1d29cf23]" name="findJakarta" duration-ms="22170" started-at="2020-07-26T13:19:26 CEST" finished-at="2020-07-26T13:19:48 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findJakarta -->
+        <test-method status="PASS" signature="zoomLocation()[pri:0, instance:searchJakarta.maps.TestSearchJakarta@1d29cf23]" name="zoomLocation" duration-ms="8492" started-at="2020-07-26T13:19:48 CEST" finished-at="2020-07-26T13:19:57 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- zoomLocation -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:searchJakarta.maps.TestSearchJakarta@1d29cf23]" name="quit" is-config="true" duration-ms="1324" started-at="2020-07-26T13:19:57 CEST" finished-at="2020-07-26T13:19:58 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- searchJakarta.maps.TestSearchJakarta -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
