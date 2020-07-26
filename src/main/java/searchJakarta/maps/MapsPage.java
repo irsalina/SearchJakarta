@@ -52,8 +52,10 @@ public class MapsPage {
 	public static void zoomInLocation(AndroidDriver<MobileElement> driver, Point center) throws InterruptedException {
 		ZoomHelper h = new ZoomHelper();
         Thread.sleep(2000);
-        driver.perform(h.zoomIn(center, 1000));
         System.out.println("Zoom in the location");
+        driver.perform(h.zoomIn(center, 500));
+        System.out.println("Zoom in more");
+        driver.perform(h.zoomIn(center, 1500));
     }
 
 }

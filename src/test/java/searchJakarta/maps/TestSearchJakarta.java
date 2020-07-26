@@ -8,8 +8,8 @@ import org.openqa.selenium.Rectangle;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -27,7 +27,7 @@ public class TestSearchJakarta {
 		public static String selectedCityInMap = "Jakarta Selatan, South Jakarta City, Jakarta, Indonesia";
 		WebDriverWait wait = null;
  	
-	  @BeforeTest
+	  @BeforeClass
 	  public void setupAppium() throws MalformedURLException {
 	 
 	    final String URL_STRING = "http://0.0.0.0:4723/wd/hub";
@@ -77,7 +77,7 @@ public class TestSearchJakarta {
 		 Thread.sleep(6000);
 	  }
 	  
-	  @AfterTest
+	  @AfterClass
 	  public void quit() {
 		  driver.quit();
 	  }
